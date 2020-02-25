@@ -1,3 +1,6 @@
+---
+
+
 - name: Create a new instance and attaches to a network and passes metadata to the instance (From Ansible official Doc)
   os_server:
        state: present
@@ -6,9 +9,9 @@
          username: "{{ user }}"
          password: "{{ password }}"
          project_name: "{{ project_name }}"
-       name: "{{ name_instance }}"
+       name: "felix1"
        image: "{{ image }}"
-       key_name: "{{ key_name }}"
+       key_name: "felix"
        timeout: 200
        flavor: "{{ flavor }}"
        nics:
@@ -17,6 +20,3 @@
        meta:
          hostname: "{{ hostname }}"
          group: default
-
-
-       
