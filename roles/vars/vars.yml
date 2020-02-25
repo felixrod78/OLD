@@ -2,7 +2,7 @@
 
 auth_url: "http://asgard.es.datio:15000/v3/"
 user: "frodriguez"
-password: "support"  TBD
+password: "19361939z"  
 project_name: "cop_ansible"
 name_instance: "felix"
 image: "c60877a1-e7cb-48ad-97b3-143a8e87e808"
@@ -13,4 +13,3 @@ net-name: "cop_network"
 net-id: "91d7cb0d-acc5-4141-bfe3-1d611574c3b3"
 net-name: "cop_subnet"
 hostname: "felix"
-password:   A DEFINIR ANSIBLE VAULT
